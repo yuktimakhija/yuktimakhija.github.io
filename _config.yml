@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Yukti Makhija"
   avatar           : "profile.png"
-  bio              : |
-    B.Tech Student\n 
+  bio              : > 
+    B.Tech Student
     IIT Delhi
   location         : "New Delhi"
   employer         :
