@@ -167,9 +167,12 @@ $sizes: map-merge(
 // Body
 //
 // Settings for the `<body>` element.
-
+/*
 $body-bg:                   $white !default;
 $body-color:                $gray-900 !default;
+*/
+$body-bg:                   #23252f !default;
+$body-color:                #d6d1c4 !default;
 
 
 // Links
@@ -830,7 +833,7 @@ $jumbotron-bg:                      $gray-200 !default;
 
 $card-spacer-y:                     .75rem !default;
 $card-spacer-x:                     1.25rem !default;
-$card-border-width:                 $border-width !default;
+$card-border-width:                 0 !default;
 $card-border-radius:                $border-radius !default;
 $card-border-color:                 rgba($black, .125) !default;
 $card-inner-border-radius:          subtract($card-border-radius, $card-border-width) !default;
@@ -838,7 +841,7 @@ $card-cap-bg:                       rgba($black, .03) !default;
 $card-cap-color:                    null !default;
 $card-height:                       null !default;
 $card-color:                        null !default;
-$card-bg:                           $white !default;
+$card-bg:                           transparent !default;
 
 $card-img-overlay-padding:          1.25rem !default;
 
