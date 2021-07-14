@@ -1,6 +1,10 @@
 - caption: Undergraduate Student
+  href:
+  icon:
 
 - caption: IIT Delhi
+  href: 
+  icon:
 
 - caption: GitHub
   href: https://github.com/yuktimakhija
@@ -14,9 +18,9 @@
   href: mailto:bb1190067@iitd.ac.in
   icon: entypo/mail.svg
 
-- caption: Twitter
-  href: https://www.twitter.com
-  icon: entypo/twitter.svg
+# - caption: Twitter
+#   href: https://www.twitter.com
+#   icon: entypo/twitter.svg
 
 - caption: New Delhi
   href: https://goo.gl/maps/1QimFci3ndgo1uGdA
