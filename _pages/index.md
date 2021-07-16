@@ -2,10 +2,10 @@
 layout: defaults/page
 permalink: index.html
 narrow: true
-title: Welcome to Friday Theme
+title: Yukti Makhija
 ---
 
-## What is it?
+## About Me
 
 {% include components/intro.md %}
 
