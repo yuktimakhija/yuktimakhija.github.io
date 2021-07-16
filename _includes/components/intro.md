@@ -1,3 +1,1 @@
-I am a third-year undergraduate student at the Indian Institute of Technology, Delhi, where I am studying Biochemical Engineering and Computer Science. 
-
-
+I am a third-year undergraduate student at the Indian Institute of Technology, Delhi, where I am studying Biochemical Engineering and Computer Science. I am fortunate to have had the opportunity to work with Prof. Ishaan Gupta on some incredible research projects on the applications of Machine Learning and Artificial Intelligence to healthcare and COVID-19. I will be sharing the details of my work here. 
