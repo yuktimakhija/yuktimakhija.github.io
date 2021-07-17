@@ -1,14 +1,18 @@
+- caption: Email
+  href: mailto:bb1190067@iitd.ac.in
+  icon: entypo/mail.svg
+
 - caption: GitHub
   href: https://github.com/yuktimakhija
   icon: entypo/github.svg
 
+- caption: LinkedIn
+  href: https://in.linkedin.com/in/yukti-makhija
+  icon: entypo/linkedin.svg
+
 # - caption: Stack Overflow
 #   href: https://stackoverflow.com
 #   icon: icons/stackoverflow.svg
-
-- caption: Email
-  href: mailto:bb1190067@iitd.ac.in
-  icon: entypo/mail.svg
 
 # - caption: Twitter
 #   href: https://www.twitter.com
@@ -17,4 +21,5 @@
 - caption: New Delhi
   href: https://goo.gl/maps/1QimFci3ndgo1uGdA
   icon: entypo/location-pin.svg
+
 
