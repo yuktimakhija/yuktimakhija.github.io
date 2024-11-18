@@ -1,7 +1,7 @@
 baseURL = 'https://yuktimakhija.github.io'
 languageCode = 'en-us'
 title = "Yukti Makhija's webpage"
-theme = "Anatole"
+theme = "anatole"
 
 [params]
 title = "Yukti Makhija"
