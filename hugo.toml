@@ -3,6 +3,11 @@ languageCode = 'en-us'
 title = "Yukti Makhija's webpage"
 theme = "anatole"
 
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+
 [params]
 title = "Yukti Makhija"
 author = "Yukti Makhija"
@@ -10,7 +15,8 @@ description = "Researcher at Google DeepMind"
 profilePicture = "profile.png"
 contentratio = 0.75
 hidesidebar = true
-
+mainSections = []
+postSectionName = "research"
 
 [[params.socialIcons]]
 icon = "fab fa-google-scholar"
