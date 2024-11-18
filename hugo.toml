@@ -15,8 +15,10 @@ description = "Researcher at Google DeepMind"
 profilePicture = "profile.png"
 contentratio = 0.75
 hidesidebar = true
-mainSections = []
+mainSections = ['research']
 postSectionName = "research"
+customCss = ["css/custom.css"]
+readMore = true
 
 [[params.socialIcons]]
 icon = "fab fa-google-scholar"
@@ -49,4 +51,4 @@ url = "/research/"
 name = "Resume"
 weight = 200
 identifier = "resume"
-url = "/post/"
+url = "/resume"
