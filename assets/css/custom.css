@@ -25,6 +25,9 @@
 	border-radius: 5px;
 	padding: 1em;
 }
+.archive__list-item > a {
+	width: 100%;
+}
 
 .post__heading {
 	display: flex;
