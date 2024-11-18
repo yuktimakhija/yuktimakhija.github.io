@@ -1,0 +1,60 @@
+{{ define "main" }}
+  <div
+    class="archive {{ with .Site.Params.doNotLoadAnimations }}
+      .
+    {{ else }}
+      animated fadeInDown
+    {{ end }}"
+  >
+    {{ range .Data.Pages.GroupByDate "2006" }}
+      <div class="archive__heading">{{ .Key }}</div>
+      {{ range .Pages }}
+        <ul class="archive__list">
+          <li class="archive__list-item">
+            <a href="{{ .RelPermalink }}">
+            
+            {{ if .Params.thumbnail }}
+              <div class="post__thumbnail-wrapper">
+                  <img class="post__thumbnail" src="{{ .Params.thumbnail | relURL }}" alt="Thumbnail image" loading="lazy" />
+              </div>
+            {{ end }}
+
+            <span class="post__heading">
+              {{ if (eq .Site.Params.disableArchiveTitleStyling true) }}
+                <span class="post__title">{{ .Title }}</span>
+              {{ else }}
+                <span class="post__title">{{ upper .Title }}</span>
+              {{ end }}
+
+              <div class="archive__list-date">
+                {{ if isset .Site.Params "listdateformat" }}
+                  {{ if .Site.Params.localizedDates }}
+                    {{ time.Format .Site.Params.listDateFormat .Date }}
+                  {{ else }}
+                    {{ .Date.Format .Site.Params.listDateFormat }}
+                  {{ end }}
+
+                {{ else }}
+                  {{ if .Site.Params.localizedDates }}
+                    {{ time.Format "Jan 2" .Date }}
+                  {{ else }}
+                    {{ .Date.Format "Jan 2" }}
+                  {{ end }}
+
+                {{ end }}
+              </div>
+            </span>
+
+
+            {{ if .Params.description }}
+              <div>{{ .Params.description | markdownify }}</div>
+            {{ end }}
+
+            </a>
+          </li>
+        </ul>
+      {{ end }}
+
+    {{ end }}
+  </div>
+{{ end }}
