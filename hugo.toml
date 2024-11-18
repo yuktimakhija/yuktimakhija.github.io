@@ -1,0 +1,46 @@
+baseURL = 'https://yuktimakhija.github.io'
+languageCode = 'en-us'
+title = "Yukti Makhija's webpage"
+theme = "Anatole"
+
+[params]
+title = "Yukti Makhija"
+author = "Yukti Makhija"
+description = "Researcher at Google DeepMind"
+profilePicture = "profile.png"
+contentratio = 0.75
+hidesidebar = true
+
+
+[[params.socialIcons]]
+icon = "fab fa-google-scholar"
+title = "Google Scholar"
+url = "https://scholar.google.com/citations?hl=en&user=vk-vG5wAAAAJ"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "email"
+url = "mailto:makhijayukti@gmail.com"
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/yuktimakhija"
+
+[[menu.main]]
+name = "About"
+weight = 100
+identifier = "about"
+url = "/"
+
+[[menu.main]]
+name = "Research"
+weight = 200
+identifier = "research"
+url = "/research/"
+
+[[menu.main]]
+name = "Resume"
+weight = 200
+identifier = "resume"
+url = "/post/"
