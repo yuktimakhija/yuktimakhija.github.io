@@ -6,6 +6,11 @@
       animated fadeInDown
     {{ end }}"
   >
+  {{- if .Content }}
+  <div class="post__content">
+    {{ .Content }}
+  </div>
+  {{- end }}
     {{ range .Data.Pages.GroupByDate "2006" }}
       <div class="archive__heading">{{ .Key }}</div>
       {{ range .Pages }}

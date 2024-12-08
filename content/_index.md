@@ -1,3 +1,5 @@
 # About Me
 
-Website is WIP
+I am a *Pre-Doctoral Machine Learning Researcher* at Google DeepMind (GDM), where I work under the guidance of [Dr. Rishi Saket](https://research.google/people/107857/). My research centers on developing algorithms for learning from aggregate data, and studying associated learning theory and optimization challenges. Prior to this, I interned at the Vector Institute, supervised by [Prof. Rahul Krishnan](https://www.cs.toronto.edu/~rahulgk/). We developed hybrid methods for learning predictive checklists which integrate combinatorial solvers with deep learning.
+
+I'm broadly interested in **Learning Theory, Optimization, and Causal ML**. My research is driven by real-world applications, focusing on decision-making and differential privacy. My ultimate goal is to design provable algorithms that gap between theoretical frameworks and practical deployment of learning algorithms.
