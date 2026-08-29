@@ -11,8 +11,8 @@ tag = "tags"
 [params]
 title = "Yukti Makhija"
 author = "Yukti Makhija"
-description = "Researcher at Google DeepMind"
-profilePicture = "profile.png"
+description = "PhD Student at Mila & UdeM"
+profilePicture = "profile_2026.jpg"
 contentratio = 0.75
 hidesidebar = false
 mainSections = []
@@ -28,7 +28,7 @@ url = "https://scholar.google.com/citations?hl=en&user=vk-vG5wAAAAJ"
 [[params.socialIcons]]
 icon = "fas fa-envelope"
 title = "email"
-url = "mailto:makhijayukti@gmail.com"
+url = "mailto:yukti.makhija@mila.quebec"
 
 [[params.socialIcons]]
 icon = "fab fa-github"
@@ -47,8 +47,8 @@ weight = 200
 identifier = "research"
 url = "/research/"
 
-[[menu.main]]
-name = "Resume"
-weight = 200
-identifier = "resume"
-url = "/resume"
+# [[menu.main]]
+# name = "Resume"
+# weight = 200
+# identifier = "resume"
+# url = "/resume"
