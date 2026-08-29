@@ -13,12 +13,14 @@ title = "Yukti Makhija"
 author = "Yukti Makhija"
 description = "PhD Student at Mila & UdeM"
 profilePicture = "profile_2026.jpg"
-contentratio = 0.75
+contentratio = 0.70
 hidesidebar = false
 mainSections = []
 postSectionName = "research"
 customCss = ["css/custom.css"]
 readMore = true
+googleFonts = ["Space+Grotesk:wght@300..700"]
+displayMode = "dark"
 
 [[params.socialIcons]]
 icon = "fab fa-google-scholar"
