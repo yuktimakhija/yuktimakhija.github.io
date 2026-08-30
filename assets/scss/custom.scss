@@ -1,0 +1,16 @@
+.footer {  
+  &__sidebar {
+    display: none;
+
+    // @include desktop {
+    //   display: none;
+    // }
+  }
+
+  &__base {
+  	display: inline-block;
+    // @include desktop {
+    //   display: none;
+    // }
+  }
+}
