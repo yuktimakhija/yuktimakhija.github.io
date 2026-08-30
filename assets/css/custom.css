@@ -56,6 +56,15 @@ body {
 	height: unset;
 	border-radius: 0;
 	aspect-ratio: auto;
+	max-height: 68vh;
+}
+
+.sidebar__list {
+	margin-top: 0;
+}
+
+.sidebar__content {
+	margin: 1em 0;
 }
 
 .sidebar__introduction-title {
