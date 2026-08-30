@@ -1,5 +1,60 @@
 # Changelog
 
+## [1.20.0](https://github.com/lxndrblz/anatole/compare/v1.19.0...v1.20.0) (2026-07-12)
+
+## [1.19.0](https://github.com/lxndrblz/anatole/compare/v1.18.0...v1.19.0) (2026-02-28)
+
+### Features
+
+- allow using custom SCSS ([#570](https://github.com/lxndrblz/anatole/issues/570)) ([07e40a5](https://github.com/lxndrblz/anatole/commit/07e40a5107ed05bb2dcaa5ea4117088f0246ebbe))
+
+### Bug Fixes
+
+- add animation on 404 content and mobile footer ([#559](https://github.com/lxndrblz/anatole/issues/559)) ([7c76b55](https://github.com/lxndrblz/anatole/commit/7c76b55a1c1412579d4556075e5a4d92060c695f))
+- resolve .Site.Author error for Hugo 0.156.0 ([#583](https://github.com/lxndrblz/anatole/issues/583)) ([92946d0](https://github.com/lxndrblz/anatole/commit/92946d0c39dd5a27ff8c9a403a4f2f3cc2d5ab4a))
+
+## [1.18.0](https://github.com/lxndrblz/anatole/compare/v1.17.1...v1.18.0) (2025-09-20)
+
+### Features
+
+- update Mermaid diagrams to follow theme preference ([#576](https://github.com/lxndrblz/anatole/issues/576)) ([902d1bf](https://github.com/lxndrblz/anatole/commit/902d1bfcae166cf9b0350bb88810e3c0162430a3))
+- update npm packages to latest versions ([3632c0f](https://github.com/lxndrblz/anatole/commit/3632c0feaa1d2cd9a73cb294b06dbc952957908a))
+
+### Bug Fixes
+
+- missing string and fixed translation in Spanish localization ([#577](https://github.com/lxndrblz/anatole/issues/577)) ([b0a42b1](https://github.com/lxndrblz/anatole/commit/b0a42b1bc2a8da25a3e8283f8ab7d59a65a293be))
+
+## [1.17.1](https://github.com/lxndrblz/anatole/compare/v1.17.0...v1.17.1) (2025-06-22)
+
+## [1.17.0](https://github.com/lxndrblz/anatole/compare/v1.16.2...v1.17.0) (2025-06-19)
+
+### Features
+
+- add license metadata ([#518](https://github.com/lxndrblz/anatole/issues/518)) ([f99b5b1](https://github.com/lxndrblz/anatole/commit/f99b5b1345968a5c160e8432f364f8dc36b78c80))
+- add support for Meta Pixel tracker ([#538](https://github.com/lxndrblz/anatole/issues/538)) ([513c2c2](https://github.com/lxndrblz/anatole/commit/513c2c23c92916191a56de17291c32a372e6661e))
+- localize table of contents title ([#557](https://github.com/lxndrblz/anatole/issues/557)) ([e875766](https://github.com/lxndrblz/anatole/commit/e875766eb844963b10b2be143f5c2c47084b13d2))
+
+### Bug Fixes
+
+- clear warnings when previewing example site (hugo 0.144.2) ([#542](https://github.com/lxndrblz/anatole/issues/542)) ([5831d85](https://github.com/lxndrblz/anatole/commit/5831d852d14e2184f4cd4d2d5b78725f7a0a497c))
+- Error while running Devcontainer ([#567](https://github.com/lxndrblz/anatole/issues/567)) ([1b11f01](https://github.com/lxndrblz/anatole/commit/1b11f01e45343a440917e676763ab939a0437727))
+- fix partial handling for pagination ([b6cbc94](https://github.com/lxndrblz/anatole/commit/b6cbc945fe2c4167206883e7fb506e1e35125ac4)), closes [#551](https://github.com/lxndrblz/anatole/issues/551)
+- make setting 'contentratio' work again ([#560](https://github.com/lxndrblz/anatole/issues/560)) ([71f54e9](https://github.com/lxndrblz/anatole/commit/71f54e941b74122353d950c04c7afa1a7b887595))
+- planify post content on index ([#545](https://github.com/lxndrblz/anatole/issues/545)) ([e1aaaf7](https://github.com/lxndrblz/anatole/commit/e1aaaf7463756f65a866ff15f4c15e25b78c82fe))
+- theme switcher toggling incorrectly ([#553](https://github.com/lxndrblz/anatole/issues/553)) ([3683a0f](https://github.com/lxndrblz/anatole/commit/3683a0f2b6a0750f858afd4dd3e65bb9caf3ef5b))
+
+## [1.16.2](https://github.com/lxndrblz/anatole/compare/v1.16.1...v1.16.2) (2025-01-03)
+
+### Bug Fixes
+
+- broken rss feed ([#535](https://github.com/lxndrblz/anatole/issues/535)) ([1c6273e](https://github.com/lxndrblz/anatole/commit/1c6273e5c61c9a9e3d2aeb95317acea30f41e13d))
+
+## [1.16.1](https://github.com/lxndrblz/anatole/compare/v1.16.0...v1.16.1) (2024-12-26)
+
+### Bug Fixes
+
+- unsafe html warnings ([#531](https://github.com/lxndrblz/anatole/issues/531)) ([056ff32](https://github.com/lxndrblz/anatole/commit/056ff3230698a3bec8ab75897b2085032b513b3a))
+
 ## [1.16.0](https://github.com/lxndrblz/anatole/compare/v1.15.1...v1.16.0) (2024-11-17)
 
 ### Features
